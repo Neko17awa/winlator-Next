@@ -6,6 +6,20 @@
 
 Winlator is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64.
 
+## winlator-Next fork notes
+
+This repository is maintained as a fork of the Winlator ecosystem and includes additional integration work in this codebase.
+
+Current repository layout:
+- Main project files are in this repository root.
+- `app`, `vortek`, and `gladio` are Git submodules.
+
+Before local development, initialize submodules:
+
+```bash
+git submodule update --init --recursive
+```
+
 # Installation
 
 1. Download and install the APK (Winlator_11.0.apk) from [GitHub Releases](https://github.com/brunodev85/winlator/releases)
